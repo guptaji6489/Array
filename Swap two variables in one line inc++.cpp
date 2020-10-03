@@ -6,5 +6,5 @@ int main()
     int x=10;
     int y=20;
     (x ^= y),(y ^= x),(x ^= y);
-    cout<<x<<endl<<y;
+    cout<<"after swaping :"<<x<<endl<<y;
 }
