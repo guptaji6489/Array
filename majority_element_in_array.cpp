@@ -33,7 +33,7 @@ void majority(int a[],int n)
         }
 } */
 
-void majority(int a[],int n)
+void majority1(int a[],int n)
 {
     unordered_map<int,int> m;
     for(int i=0;i<n;i++)
@@ -62,7 +62,7 @@ int main()
 {
     int a[]={1,2,3,2,2,4,5,2,2,2};
     int n=10;
-  majority(a,n);
+  majority1(a,n);
 
 }
 
