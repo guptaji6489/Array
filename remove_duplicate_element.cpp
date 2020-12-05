@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void removeduplicate(int a[],int n)
+void removeduplicate1int a[],int n)
 {
     int j=0;
     for(int i=0;i<n-1;i++)
@@ -24,5 +24,5 @@ int main()
 {
     int a[]={1,2,2,2,3,4,5,5,5};
     int n=9;
-    removeduplicate(a,n);
+    removeduplicate1(a,n);
 }
