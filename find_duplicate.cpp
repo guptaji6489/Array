@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void findduplicate(int a[],int n)
+void findduplicate1(int a[],int n)
 {
     set<int>s;
     for(int i=0;i<n;i++)
@@ -21,5 +21,5 @@ int main()
 {
     int a[]={1,3,2,3,5};
     int n=5;
-    findduplicate(a,n);
+    findduplicate1(a,n);
 }
