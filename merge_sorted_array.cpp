@@ -33,6 +33,7 @@ void mergesorted(int a[],int b[],int a1,int b1)
 
 int main()
 {
+    // two array a and b
     int a[]={1,3,4,7,9,15};
     int b[]={2,19,6,24,40,57,63};
     mergesorted(a,b,6,7);
