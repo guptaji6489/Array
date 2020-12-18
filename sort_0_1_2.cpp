@@ -5,6 +5,7 @@ using namespace std;
 
 void zerononentwo(int a[],int n)
 {
+    //sort 
     int low=0,high=n-1,mid=0;
     while(mid<=high)
     {
