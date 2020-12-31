@@ -4,6 +4,7 @@ using namespace std;
 void leader(int a[],int n)
 {
     int m = a[n-1];
+    //leader in array
     for(int i=n-2;i>=0;i--)
     {
         if(a[i]>m)
